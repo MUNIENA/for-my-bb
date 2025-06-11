@@ -1,35 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
 body {
   background: linear-gradient(#ffe6f0, #fff0f5);
   font-family: 'Kanit', sans-serif;
   text-align: center;
-  padding: 50px;
+  padding: 50px 20px;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .container {
-  background: white;
+  background: #fff;
   border-radius: 20px;
-  padding: 40px;
+  padding: 40px 30px;
   max-width: 500px;
   margin: auto;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
   color: #ff4081;
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
 
-.question, #message, #finalMessage {
+.question,
+#message,
+#finalMessage {
   font-size: 18px;
   color: #444;
   margin: 20px 0;
+  line-height: 1.6;
 }
 
 .cute-pic {
   width: 200px;
-  margin: 20px 0;
-  border-radius: 10px;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  display: block;
 }
 
 button {
@@ -38,9 +47,11 @@ button {
   border: none;
   padding: 12px 25px;
   font-size: 16px;
+  font-family: inherit;
   border-radius: 30px;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background 0.3s ease;
+  margin-top: 10px;
 }
 
 button:hover {
