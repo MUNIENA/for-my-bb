@@ -1,0 +1,52 @@
+body {
+  background: linear-gradient(#ffe6f0, #fff0f5);
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  padding: 50px;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #ff4081;
+}
+
+.question, #message, #finalMessage {
+  font-size: 18px;
+  color: #444;
+  margin: 20px 0;
+}
+
+.cute-pic {
+  width: 200px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+button {
+  background: #ff69b4;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #e91e63;
+}
+
+.hidden {
+  display: none;
+}
